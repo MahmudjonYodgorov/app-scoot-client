@@ -98,6 +98,7 @@ body{
     font-family: "Space Mono",  "Arial" , sans-serif ;
     font-weight: 400;
     font-style: normal;
+    background-color: var(--main-bg-color);
 }
 
 ul{
@@ -189,7 +190,6 @@ a{
 
 .hero-desc{
     font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
     font-size: 15px;
     line-height: 25px;
     margin-top: 40px;
@@ -250,8 +250,7 @@ a{
 }
 
 .locate-desc{
-    font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
+    font-family: 'Lexend Deca', 'Arial', sans-serif;
     font-size: 15px;
     line-height: 25px;
     color: var(--main-text-color);
@@ -260,9 +259,88 @@ a{
 /******************  Locate section styles end **************/
 
 
-/******************   Riding  section styles start   **************/
+/****************** Riding-telemetry  section styles start   **************/
+.riding-telemetry__wrapper{
+    margin-top: 147px;
+    position: relative;
+}
 
-/******************   Riding  section styles end   **************/
+
+.riding-telemetry__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: var(--main-title-color);
+    max-width: 445px;
+    padding-top: 50px;
+    margin-bottom: 24px;
+}
+
+.riding-telemetry__desc{
+    font-family: 'Lexend Deca', 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-text-color);
+    max-width: 445px;
+}
+
+.riding-telemetry__wrapper .btn{
+    margin-top: 25px;
+}
+
+.riding-telemetry__img{
+    width: 747px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/****************** Riding-telemetry  section styles end   **************/
+
+
+/****************** Neary-city section styles start   **************/
+.neary-city{
+    background-image: url(../images/main-bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.neary-city__wrapper{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    max-width: 445px;
+}
+
+.neary-city__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: var(--main-title-color);
+}
+
+.neary-city__desc{
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-text-color);
+}
+
+.neary-city__wrapper .btn{
+    margin-top: 25px;
+}
+
+.neary-city .neary-city__indicator{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/****************** Neary-city section styles end   **************/
 
 
 
