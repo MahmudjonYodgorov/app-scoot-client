@@ -1,0 +1,104 @@
+/***************  Fonts Styles start  **************/
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('../fonts/LexendDeca-Bold.woff2') format('woff2'),
+    url('../fonts/LexendDeca-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('../fonts/SpaceMono-Bold.woff2') format('woff2'),
+    url('../fonts/SpaceMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('../fonts/LexendDeca-Regular.woff2') format('woff2'),
+    url('../fonts/LexendDeca-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('../fonts/SpaceMono-Regular.woff2') format('woff2'),
+    url('../fonts/SpaceMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/***************  Fonts Styles end  **************/
+
+:root{
+    --header-bg-color: #fff;
+    --main-text-color: #939CAA;
+    --main-title-color: #495567;
+    --btn-bg-color: #FCB72B;
+    --main-bg-color:  #F2F2F2;
+}
+
+.container{
+    width: 860px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn{
+    padding: 14px 39px;
+    width: 180px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: var(--header-bg-color);
+    background-color: var(--btn-bg-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body{
+    font-family: "Space Mono",  "Arial" , sans-serif ;
+    font-weight: 400;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*******************  Header Styles start  ****************/
+
+/*******************  Header Styles end  ****************/
+
+
