@@ -97,6 +97,7 @@ body{
     margin: 0;
     font-family: "Space Mono",  "Arial" , sans-serif ;
     font-weight: 400;
+    font-style: normal;
 }
 
 ul{
@@ -148,5 +149,127 @@ a{
 }
 
 /*******************  Header Styles end  ****************/
+
+/*******************  Main Styles start  ****************/
+
+/********************  Hero section styles start  **********************/
+.hero-wrapper{
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    min-height: 650px;
+    padding: 153px 0;
+    margin-bottom: 160px;
+    position: relative;
+}
+
+.background-line{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background-color: #2F3B59;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+.hero-info{
+    position: absolute;
+}
+.hero-title{
+    max-width:500px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--header-bg-color);
+    margin-top: 0;
+}
+
+.hero-desc{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 40px;
+    color:  var(--header-bg-color);
+    max-width: 405px;
+    margin-left: 160px;
+}
+
+.hero-left__img{
+    position: absolute;
+    width: 203px;
+    height: 15px;
+    bottom:280px
+
+}
+
+.hero-wrapper .btn {
+    margin-left: 160px;
+    margin-top: 25px;
+}
+
+.hero-right__img{
+    position: absolute;
+    width: 446px;
+    height: 99px;
+    right: 289px;
+    bottom: 195px;
+}
+
+/******************  Hero section styles end   **************/
+
+
+/******************  Locate section styles start   **************/
+.locate{
+    background-image: url(../images/icons/locate-hr.svg);
+    background-repeat: no-repeat;
+    background-position: 35px 40px;
+}
+
+.locate-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.locate__img{
+    width: 96px;
+    height: 96px;
+}
+
+.locate-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px;
+    color: var(--main-title-color);
+}
+
+.locate-desc{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-text-color);
+    max-width: 350px;
+}
+/******************  Locate section styles end **************/
+
+
+/******************   Riding  section styles start   **************/
+
+/******************   Riding  section styles end   **************/
+
+
+
+
+
+
+
+/*******************  Main Styles end  ****************/
 
 

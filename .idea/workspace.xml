@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a61a56-ad75-417a-85a5-8fb34d613008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hero-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/hero-bg2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/indicator-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/indicator-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/phone-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/scooter-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/scooter-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icons/shape-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/shape-icon.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="H:/Web_dasturlash/Qoshimcha darss" />
+    <property name="last_opened_file_path" value="H:/Web_dasturlash/coffeeroasters" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1669401555525" duration="5276000" />
       <workItem from="1669413661435" duration="210000" />
       <workItem from="1669430423464" duration="6171000" />
-      <workItem from="1669439979023" duration="2848000" />
+      <workItem from="1669439979023" duration="13228000" />
     </task>
     <servers />
   </component>
