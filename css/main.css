@@ -39,6 +39,9 @@
 
 /***************  Fonts Styles end  **************/
 
+
+/***************  GLobal Styles start  **************/
+
 :root{
     --header-bg-color: #fff;
     --main-text-color: #939CAA;
@@ -80,6 +83,26 @@
     cursor: pointer;
 }
 
+.btn-link{
+    padding: 14px 39px;
+    width: 180px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    color: var(--header-bg-color);
+    background-color: var(--btn-bg-color);
+    border: none;
+}
+
+.btn-link:active{
+    background-color: transparent;
+    border: 3px solid  var(--btn-bg-color);
+    color: var(--btn-bg-color);
+    font-size: 15px;
+    cursor: pointer;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -109,6 +132,8 @@ ul{
 a{
     text-decoration: none;
 }
+
+/***************  GLobal Styles end  **************/
 
 /*******************  Header Styles start  ****************/
 .site-header{
@@ -283,11 +308,9 @@ a{
     line-height: 25px;
     color: var(--main-text-color);
     max-width: 445px;
+    margin-bottom: 40px;
 }
 
-.riding-telemetry__wrapper .btn{
-    margin-top: 25px;
-}
 
 .riding-telemetry__img{
     width: 747px;
@@ -329,11 +352,9 @@ a{
     font-size: 15px;
     line-height: 25px;
     color: var(--main-text-color);
+    margin-bottom: 40px;
 }
 
-.neary-city__wrapper .btn{
-    margin-top: 25px;
-}
 
 .neary-city .neary-city__indicator{
     position: absolute;
@@ -342,12 +363,111 @@ a{
 }
 /****************** Neary-city section styles end   **************/
 
+/****************** Easy-payments  section styles start   **************/
+.easy-payments__wrapper{
+    margin-top: 147px;
+    position: relative;
+}
 
 
+.easy-payments__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: var(--main-title-color);
+    max-width: 445px;
+    padding-top: 50px;
+    margin-bottom: 24px;
+}
 
+.easy-payments__desc{
+    font-family: 'Lexend Deca', 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: var(--main-text-color);
+    max-width: 445px;
+    margin-bottom: 40px;
+}
 
+.easy-payments__img{
+    width: 610px;
+    height: 445px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 
+/****************** Easy-payments  section styles end   **************/
 
 /*******************  Main Styles end  ****************/
+
+
+/*******************  Footer Styles start  ****************/
+
+/*******************  Footer-top Styles start  ****************/
+.footer-top{
+    background-color: var(--main-title-color);
+    min-height: 300px;
+    background-image: url(../images/footer-top-bg.png);
+    background-position: bottom  right;
+    background-repeat: no-repeat;
+}
+
+.footer-top__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0 80px 0;
+    margin-top: 400px;
+}
+
+.footer-top .card{
+    display: flex;
+    gap: 18px;
+}
+
+.footer-top__title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #FFFFFF;
+    max-width: 415px;
+}
+
+/*******************  Footer-top Styles start  ****************/
+
+/*******************  Footer-bottom Styles start  ****************/
+.footer-bottom{
+    background-color: #333A44;
+    min-height: 96px;
+}
+
+.footer-bottom__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;
+}
+
+.footer-bottom__start{
+    display: flex;
+    justify-content: space-between;
+    gap: 59px;
+    align-items: center;
+}
+.network-icon__img{
+    margin-left: 10px;
+    fill: var(--btn-bg-color);
+}
+
+.network-icon__img:active{
+    fill:  #E5ECF4;
+    cursor: pointer;
+}
+/*******************  Footer-bottom Styles end  ****************/
+
+/*******************  Footer Styles end  ****************/
 
 
