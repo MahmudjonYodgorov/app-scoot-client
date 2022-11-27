@@ -4,8 +4,6 @@
     <list default="true" id="47a61a56-ad75-417a-85a5-8fb34d613008" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icons/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icons/twitter.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="H:/Amaliyot/namanganliklar24-2.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,7 +73,7 @@
       <workItem from="1669413661435" duration="210000" />
       <workItem from="1669430423464" duration="6171000" />
       <workItem from="1669439979023" duration="24933000" />
-      <workItem from="1669514695764" duration="5041000" />
+      <workItem from="1669514695764" duration="18839000" />
     </task>
     <servers />
   </component>
